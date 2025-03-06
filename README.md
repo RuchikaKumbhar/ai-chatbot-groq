@@ -1,5 +1,5 @@
-# Groq Chat Assistant
-**Groq Chat Assistant** is an interactive chatbot application built with Streamlit that lets users engage with an AI model in a conversational way. It provides a customizable and dynamic chat experience, tailored to meet various user needs, from simple information gathering to expert advice and creative brainstorming.
+# Chat Assistant
+**Chat Assistant** is an interactive chatbot application built with Streamlit that lets users engage with an AI model in a conversational way. It provides a customizable and dynamic chat experience, tailored to meet various user needs, from simple information gathering to expert advice and creative brainstorming.
 
 ## Features
 1. **AI Model and Persona Selection**
@@ -31,28 +31,22 @@
 
 ### Project Setup
 
-#### 1. Clone the Repository
+#### 1. Create a Virtual Environment
 ```bash
-git clone <repository-url>
-cd <project-folder>
+conda create -p venv python=3.12 -y
 ```
 
-#### 2. Create a Virtual Environment
+#### 2. Activate the Virtual Environment
 ```bash
-conda create -p env python=3.10 -y
+conda activate venv/
 ```
 
-#### 3. Activate the Virtual Environment
-```bash
-conda activate env/
-```
-
-#### 4. Install Project Requirements
+#### 3. Install Project Requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 5. Environment Variables
+#### 4. Environment Variables
 Create a .env file and add the required key-value pairs:
 ```bash
 GROQ_API_KEY = your_api_key
@@ -60,7 +54,7 @@ GROQ_API_KEY = your_api_key
 
 #### 6. How to Run the Project
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ## Usage

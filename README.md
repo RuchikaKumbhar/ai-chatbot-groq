@@ -52,7 +52,7 @@ Create a .env file and add the required key-value pairs:
 GROQ_API_KEY = your_api_key
 ```
 
-#### 6. How to Run the Project
+#### 5. How to Run the Project
 ```bash
 streamlit run main.py
 ```
